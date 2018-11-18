@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zbl</groupId>
-    <artifactId>microservice-provider-dept</artifactId>
+    <artifactId>microservice-provider-dept-8001</artifactId>
     <dependencies>
         <!-- 引入自己定义的api通用包，可以使用Dept部门Entity -->
         <dependency>
