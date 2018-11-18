@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zbl</groupId>
-    <artifactId>microserviceapi</artifactId>
+    <artifactId>microservice-api</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
