@@ -2,12 +2,12 @@ package com.zbl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-@EnableEurekaClient
-public class DeptConsumer80App {
+@EnableEurekaServer
+public class EurekaServer7002App {
 	public static void main(String[] args) {
-		SpringApplication.run(DeptConsumer80App.class,args);
+		SpringApplication.run(EurekaServer7002App.class,args);
 	}
 }
