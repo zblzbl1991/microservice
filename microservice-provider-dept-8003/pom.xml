@@ -40,6 +40,8 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <!--百度云使用的mysql8所以需要更换版本-->
+            <version>8.0.11</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>

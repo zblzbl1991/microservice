@@ -1,16 +1,15 @@
 package com.zbl;
 
-import com.ribbon.MyRibbonRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.ribbon.RibbonClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-@RibbonClient(name="MICROSERVICECLOUD-DEPT",configuration = MyRibbonRule.class)
-public class DeptConsumer80App {
+@EnableFeignClients
+public class DeptConsumerFeignApp {
 	public static void main(String[] args) {
-		SpringApplication.run(DeptConsumer80App.class,args);
+		SpringApplication.run(DeptConsumerFeignApp.class,args);
 	}
 }
